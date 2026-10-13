@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-app: #0f172a;
+    --text-app: #f8fafc;
+  }
+
+  body {
+    background-color: var(--bg-app);
+    color: var(--text-app);
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* Print Overrides */
+@media print {
+  header, nav, button, .no-print, input[type="file"] {
+    display: none !important;
+  }
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    padding: 0 !important;
+  }
+  .max-w-7xl {
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+  table {
+    border-color: #000 !important;
+    color: #000 !important;
+  }
+  th, td {
+    border-color: #000 !important;
+  }
+}
