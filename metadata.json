@@ -1,6 +1,8 @@
 {
-  "name": "Isabel Transport Cooperative",
+  "name": "ITC Transport Cooperative",
   "description": "Comprehensive fleet, remittance, and cooperative management system for Isabel Transport Cooperative with offline caching, Excel data entry, and detailed financial reports.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
